@@ -68,7 +68,7 @@ services:
       - ./servicos-nginx:/etc/nginx/conf.d
     restart: always
     ports:
-      - 80:81
+      - 80:80
     depends_on:
       - web-academico
       - web-financeiro
