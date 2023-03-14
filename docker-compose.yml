@@ -24,7 +24,7 @@ services:
     working_dir: /app
     command: sh ./entrypoint.sh
     environment: 
-      SERVER_PORT: 3000
+      SERVER_PORT: 3001
       MONGO_URL: "mongodb://mkt-usuario:mkt-senha@mongo-mkt:27017/mkt?authSource=admin"
       RABBITMQ_HOST: 'rabbitmq'
       RABBITMQ_PORT: 5672
